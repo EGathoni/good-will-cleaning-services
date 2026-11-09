@@ -1,0 +1,25 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and generated build output
+node_modules/
+dist/
+build/
+tmp/
+*.log
+
+# Historical PDF is retained locally but excluded from the public repository
+Good_Will_Cleaning_Services_Company_Profile_backup_*.pdf
+
+# Profile generator is a local authoring source, not a website deployment file
+Good_Will_Cleaning_Services_Company_Profile.py
